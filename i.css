@@ -1,0 +1,64 @@
+label{
+	font-weight: bold;
+}
+
+
+
+h4{
+	font-style: italic;
+}
+
+form {
+      max-width: 500px;
+      height: 700px;
+      margin: 20px auto;
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+   
+
+    } 
+
+    body{
+	   text-align: center;
+	   background: url('curtain.jpg') no-repeat;
+      background-size: cover;
+      border-radius: 15px;
+      /** border-width: 2px solid blue; *
+      animation: slideBg 20s linear infinite; */
+      background-attachment: fixed; /* Keeps it fixed while scrolling 
+      animation: shadeAnimation 10s ease-in-out infinite alternate;
+      filter: brightness(100%) contrast(100%) saturate(100%); */
+
+      background-position: ;
+     animation: animateBg 5s linear infinite;
+}
+
+      @keyframes animateBg{
+        100%{
+            filter: hue-rotate(360deg);
+        }
+    }
+
+/**
+     @keyframes slideBg {
+    from {
+      background-position: 0 0;
+    }
+    to {
+      background-position: -1000px 100;
+    }
+  }
+ 
+     @keyframes shadeAnimation {
+      0% {
+        filter: brightness(100%) contrast(100%) saturate(100%);
+      }
+      50% {
+        filter: brightness(90%) contrast(120%) saturate(130%);
+      }
+      100% {
+        filter: brightness(110%) contrast(90%) saturate(80%);
+      }
+    }
+    **/

@@ -1,0 +1,70 @@
+
+	<!DOCTYPE html>
+	<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>practice</title>
+		<link rel="stylesheet" type="text/css" href="i.css">
+		<!--<script type="text/javascript" src="ii.js"></script> -->
+
+		<script type="text/javascript" src="i.js"></script> 
+
+
+	</head>
+	<body>
+		<form id="theForm">
+			<section>
+				<h1>Registration Form</h1>
+				<h4>Please fill all the fields</h4>
+
+				<div>
+				<label for="theForm">Full Name</label><br>
+				<input type="text" name="name" placeholder="Enter Full Name">
+			  </div>
+
+				<label for="theForm">Email Address</label><br>
+				<input type="email" name="email" placeholder="Email Address">
+				<br>
+
+				<label for="theForm">Phone Number</label><br>
+				<input type="number" name="number" placeholder="Phone Number">
+				<br>
+
+				<legend><label for="theForm">Gender</label></legend>
+				Male<input type="radio" value="male" name="gender"/>
+				Female<input type="radio" value="female" name="gender"/>
+				Other<input type="radio" value="other" name="gender">
+				<br>
+
+				<label for="theForm">Course</label><br>
+				<select name="course">
+					<option>Select the options below</option>
+					<option>Computer Science and Programming</option>
+					<option>Engineering</option>
+					<option>Education & Teaching</option
+					<option>Mathematics & Statics</option>
+					<option>Medicine</option>
+					<option>Other</option>
+				</select>
+				<br>
+
+				<label for="theForm">Attach Resume</label>
+				<input type="file" placeholder="Attach your resume" name="resume">
+				<br>
+
+				<label for="theForm">Attach Image</label>
+				<input type="url" name="image" placeholder="Paste the url here">
+				<br>
+
+				<label for="theForm">About</label><br>
+				<textarea name="about" placeholder="Add more details about you..."></textarea>
+				<br><br>
+				<button type="submit" id="s">Submit</button>
+				<button type="reset">Reset</button>
+
+			</section>
+		</form>
+	
+	</body>
+	</html>
